@@ -300,6 +300,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/AlanQuatermain-AQGridView-7c78b64/Classes";
 			};
 			name = Debug;
 		};
@@ -322,6 +323,7 @@
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/AlanQuatermain-AQGridView-7c78b64/Classes";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -334,7 +336,6 @@
 				INFOPLIST_FILE = "camTest/camTest-Info.plist";
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"USER_HEADER_SEARCH_PATHS[arch=*]" = AQGridView;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -347,7 +348,6 @@
 				INFOPLIST_FILE = "camTest/camTest-Info.plist";
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"USER_HEADER_SEARCH_PATHS[arch=*]" = AQGridView;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
