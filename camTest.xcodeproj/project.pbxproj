@@ -19,25 +19,25 @@
 		334FC3A7161B0DF200B6A110 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334FC3A5161B0DF200B6A110 /* MainStoryboard.storyboard */; };
 		334FC3AA161B0DF200B6A110 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 334FC3A9161B0DF200B6A110 /* ViewController.m */; };
 		334FC3B3161B125200B6A110 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334FC3B2161B125200B6A110 /* MobileCoreServices.framework */; };
-		337B0F64162217A3003DC021 /* libAQGridView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 337B0F601622177C003DC021 /* libAQGridView.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		3396B9FC161ED41000F76D84 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 3396B9FA161ED41000F76D84 /* camera.png */; };
 		3396B9FD161ED41000F76D84 /* photos_label.png in Resources */ = {isa = PBXBuildFile; fileRef = 3396B9FB161ED41000F76D84 /* photos_label.png */; };
 		3396BA02161EE2BE00F76D84 /* dummySalescallButtonBlankDate.png in Resources */ = {isa = PBXBuildFile; fileRef = 3396BA01161EE2BE00F76D84 /* dummySalescallButtonBlankDate.png */; };
 		339AA739161DD49D0056EF97 /* fake.png in Resources */ = {isa = PBXBuildFile; fileRef = 339AA738161DD49D0056EF97 /* fake.png */; };
+		FF530967162239C6003A9996 /* libAQGridView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF530964162239A6003A9996 /* libAQGridView.a */; };
 		FFA89DD01622388C00D2AA64 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA89DCF1622388C00D2AA64 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		337B0F5F1622177C003DC021 /* PBXContainerItemProxy */ = {
+		FF530963162239A6003A9996 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 337B0F581622177B003DC021 /* AQGridView.xcodeproj */;
+			containerPortal = FF53095C162239A5003A9996 /* AQGridView.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D2AAC07E0554694100DB518D;
 			remoteInfo = AQGridView;
 		};
-		337B0F621622179A003DC021 /* PBXContainerItemProxy */ = {
+		FF530965162239AC003A9996 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 337B0F581622177B003DC021 /* AQGridView.xcodeproj */;
+			containerPortal = FF53095C162239A5003A9996 /* AQGridView.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = D2AAC07D0554694100DB518D;
 			remoteInfo = AQGridView;
@@ -62,11 +62,11 @@
 		334FC3A8161B0DF200B6A110 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		334FC3A9161B0DF200B6A110 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		334FC3B2161B125200B6A110 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		337B0F581622177B003DC021 /* AQGridView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AQGridView.xcodeproj; path = "AlanQuatermain-AQGridView-7c78b64/AQGridView.xcodeproj"; sourceTree = "<group>"; };
 		3396B9FA161ED41000F76D84 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
 		3396B9FB161ED41000F76D84 /* photos_label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photos_label.png; sourceTree = "<group>"; };
 		3396BA01161EE2BE00F76D84 /* dummySalescallButtonBlankDate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dummySalescallButtonBlankDate.png; sourceTree = "<group>"; };
 		339AA738161DD49D0056EF97 /* fake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fake.png; sourceTree = "<group>"; };
+		FF53095C162239A5003A9996 /* AQGridView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AQGridView.xcodeproj; path = AQGridView/AQGridView.xcodeproj; sourceTree = "<group>"; };
 		FFA89DCF1622388C00D2AA64 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -75,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				337B0F64162217A3003DC021 /* libAQGridView.a in Frameworks */,
+				FF530967162239C6003A9996 /* libAQGridView.a in Frameworks */,
 				334FC3B3161B125200B6A110 /* MobileCoreServices.framework in Frameworks */,
 				334FC38E161B0DEF00B6A110 /* UIKit.framework in Frameworks */,
 				334FC390161B0DEF00B6A110 /* Foundation.framework in Frameworks */,
@@ -91,7 +91,6 @@
 			isa = PBXGroup;
 			children = (
 				FFA89DCF1622388C00D2AA64 /* QuartzCore.framework */,
-				337B0F581622177B003DC021 /* AQGridView.xcodeproj */,
 				334FC3B2161B125200B6A110 /* MobileCoreServices.framework */,
 				334FC393161B0DEF00B6A110 /* camTest */,
 				334FC38C161B0DEF00B6A110 /* Frameworks */,
@@ -110,6 +109,7 @@
 		334FC38C161B0DEF00B6A110 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FF53095C162239A5003A9996 /* AQGridView.xcodeproj */,
 				334FC38D161B0DEF00B6A110 /* UIKit.framework */,
 				334FC38F161B0DEF00B6A110 /* Foundation.framework */,
 				334FC391161B0DEF00B6A110 /* CoreGraphics.framework */,
@@ -148,10 +148,10 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		337B0F591622177B003DC021 /* Products */ = {
+		FF53095D162239A5003A9996 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				337B0F601622177C003DC021 /* libAQGridView.a */,
+				FF530964162239A6003A9996 /* libAQGridView.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,7 +170,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				337B0F631622179A003DC021 /* PBXTargetDependency */,
+				FF530966162239AC003A9996 /* PBXTargetDependency */,
 			);
 			name = camTest;
 			productName = camTest;
@@ -198,8 +198,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 337B0F591622177B003DC021 /* Products */;
-					ProjectRef = 337B0F581622177B003DC021 /* AQGridView.xcodeproj */;
+					ProductGroup = FF53095D162239A5003A9996 /* Products */;
+					ProjectRef = FF53095C162239A5003A9996 /* AQGridView.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -210,11 +210,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		337B0F601622177C003DC021 /* libAQGridView.a */ = {
+		FF530964162239A6003A9996 /* libAQGridView.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libAQGridView.a;
-			remoteRef = 337B0F5F1622177C003DC021 /* PBXContainerItemProxy */;
+			remoteRef = FF530963162239A6003A9996 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -252,10 +252,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		337B0F631622179A003DC021 /* PBXTargetDependency */ = {
+		FF530966162239AC003A9996 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AQGridView;
-			targetProxy = 337B0F621622179A003DC021 /* PBXContainerItemProxy */;
+			targetProxy = FF530965162239AC003A9996 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -304,7 +304,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
-				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/AlanQuatermain-AQGridView-7c78b64/Classes";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/AQGridView/Classes";
 			};
 			name = Debug;
 		};
@@ -327,7 +327,7 @@
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
-				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/AlanQuatermain-AQGridView-7c78b64/Classes";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/AQGridView/Classes";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
